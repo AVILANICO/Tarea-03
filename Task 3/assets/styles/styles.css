@@ -1,0 +1,250 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    background-image: url(https://st2.depositphotos.com/1371678/6692/i/450/depositphotos_66920031-stock-photo-black-old-sports-weight.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+button{
+    display: none;
+}
+nav{
+    width: 70vw;
+    height: 8vh;
+    display: flex;
+    justify-content: flex-start;
+    gap: 40px;
+}
+nav a{
+    font-size: 28px;
+    text-decoration: none;
+    color: white;
+    border: 1px solid rgb(255, 230, 0);
+    border-radius: 10px;
+    background-color: rgb(55, 116, 206);
+    display: flex;
+    align-items: center;
+    height: 50px;
+}
+nav a:hover{
+    color: rgb(255, 230, 0);
+    transform: scale(1.2);
+    transition: all .3s ease-in-out;
+}
+.loguito{
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+.logo{
+    position: absolute;
+    width: 7vw;
+    height: 8vh;
+}
+header{
+    /* border: 1px solid white; */
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.titulo{
+    font-size: 60px;
+    color: white;
+}
+.subtitulo{
+    font-size: 48px;
+    color: white;
+}
+main{
+    /* border: 1px solid white; */
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.imgPrueba{
+    width: 600px;
+    height: 400px;
+}
+#textoIndex{
+    font-size: 28px;
+    color: white;
+    width: 350px;
+    text-align: center;
+}   
+/* about */
+
+#titAbout{
+    font-size: 60px;
+    color: white;
+}
+.headerAbout{
+    height: 10vh;
+}
+.mainAbout{
+    position: relative;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    gap: 150px;
+    
+}
+.divImagenesAbout{
+    order: 1;
+    display: flex;
+    height: 80vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.divTextAbout{
+    color: white;
+    font-size: 20px;
+    display: flex;
+    height: 80vh;
+    width: 40vh;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgAbout{
+    width: 250px;
+}
+.texto1{
+    font-size: 20px;
+    color: white;
+}
+.texto2{
+    font-size: 20px;
+    color: white;
+}
+.texto3{
+    font-size: 20px;
+    color: white;
+}
+
+/* contact */
+
+#titContact{
+    font-size: 60px;
+    color: white;
+}
+.headerContact{
+    height: 10vh;
+}
+.mainContact{
+    height: 80vh;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.imgContact{
+    width: 500px;
+    height: 400px;
+}
+#divTextoContact{
+    font-size: 20px;
+    color: white;
+    width: 500px;
+}
+#divContacto{
+    color: white;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+}
+#mail{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+}
+#mail:hover{
+    color: rgb(0, 255, 13);
+}
+.contacto2{
+    color: white;
+    font-size: 20px;
+    text-decoration: none;
+}
+.contacto2:hover{
+    color: rgb(0, 255, 13);
+}
+
+/* schedule */
+
+.headerSchedule{
+    height: 18vh;
+}
+.mainSchedule{
+    height: 72vh;
+}
+table{
+    font-size: 20px;
+    width: 45vw;
+    height: 72vh;
+    border: 1px solid white;
+}
+td{
+    border: 1px solid rgb(255, 255, 255);
+    color: yellow;
+    text-align: center;
+    font-size: 24px;
+    width: 300px;
+    height: 100px;
+}
+th{
+    border: 3px solid white;
+    color: yellow;
+    text-decoration: underline;
+    font-size: 28px;
+    width: 300px;
+    height: 100px;
+}
+
+/* Benefits */
+.headerBenefits{
+    height: 15vh;
+}
+.mainBenefits{
+    height: 77vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 100px;
+}
+.divImgBenefits{
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+}
+.divListaBenefits{
+    font-size: 20px;
+    width: 25vw;
+    height: 76vh;
+    color: yellow;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+.imgBenefits{
+    width: 300px;
+    height: 200px;
+    gap: 20px;
+}
+.listUl{
+    list-style-type: disc;
+    list-style-position: inside;
+}
+#salto::after{
+    content: '\A'; 
+    white-space: pre;
+}
